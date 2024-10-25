@@ -6,16 +6,7 @@ import { UiSelectField } from "../components/uikit/fields/ui-select-field";
 export default function HomePage() {
   return (
       <HomePageLayout header={<Header />}>
-        <UiSelectField
-            label="Label"
-            placeholder="Placeholder"
-            required
-            helperText="Helper text"
-            options={[
-              { label: "Первый label", value: 1 },
-              { label: "Второй label", value: 2 },
-            ]}
-        />
+          <Game/>
       </HomePageLayout>
   );
 }
